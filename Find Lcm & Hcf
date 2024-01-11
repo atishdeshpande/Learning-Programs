@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int a,b,g,hcf,i,lcm;
+    cout<<"enter two numbers ";
+    cin>>a>>b;
+
+    if(a>b)
+     g=a;
+    else
+    g=b;
+    for(i=g; i<(a*b);i++)
+    {
+        if((i%a==0)&&(i%b==0))
+        {
+            lcm=i;
+            break;
+        }
+    }   
+    cout<<"the lcm of given numbers is "<<lcm;
+
+    hcf=(a*b)/lcm;
+    cout<<"the HCF of given numbers is "<<hcf;
+    return 0;
+}
