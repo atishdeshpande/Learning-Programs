@@ -1,0 +1,12 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    float ci, p, a, n, r;
+    cout<<"enter principal, rate of intrest and time  ";
+    cin>> p >> n >> r;
+    a=p*pow((1+(r/n)),n);
+    ci=a-p;
+    cout<<"the compound intrrest is Rs. "<< ci;
+    return 0;
+}
