@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"enter your age ";
+    cin>>num;
+    if (num<=0)
+    {
+        cout<<"your age is invalid";
+    }
+    
+    else if (num%2!=0)
+    {
+        cout<<"your age is very odd";
+    }
+    else
+    {
+        cout<<"your age is barely even";
+    }
+
+    return 0;
+}
