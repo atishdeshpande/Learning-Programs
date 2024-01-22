@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y,z;
+    cout<<"enter number one\n";
+    cin>>x;
+    cout<<"enter number two\n";
+    cin>>y;
+    cout<<"enter number three\n";
+    cin>>z;
+
+    if(x>y)
+    {
+    if(x>z)
+            {
+                cout<<"the biggest is "<<x;
+            }
+
+            else
+            {
+                cout<<"the biggest is "<<z;
+            }
+    }  
+    else
+    {
+        if(y>z)
+        {
+            cout<<"the biggest is "<<y;
+
+        }
+        else
+        {
+            cout<<"the biggest is "<<z;
+        }
+
+    }    
+    return 0;
+}
